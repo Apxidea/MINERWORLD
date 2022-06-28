@@ -471,11 +471,8 @@ a {
     /* padding: 10px;
     padding-left: 18px;
     padding-right: 18px; */
-    background-color: #242424;
-    /* background: -o-linear-gradient(.66deg, #7a48d0 .49%, #8d56ec 99.79%);
-    background: linear-gradient(89.34deg, #7a48d0 .49%, #8d56ec 99.79%); */
-    /* box-shadow: 0 5px 15px rgba(37, 20, 227, 0.75), inset 0 -1px 0 #8d56ec; */
-    box-shadow: 0 0 5px gray;
+    background: #383838;
+    box-shadow: inset 5px 5px 10px #303030, inset -5px -5px 10px #404040;
     color: white;
 }
 
@@ -484,21 +481,21 @@ a {
     padding: 10px !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
-    transition: .2s;
     font-weight: 500;
-    border-radius: 7px;
+    background: #292929;
+    box-shadow: inset 5px 5px 10px #303030, inset -5px -5px 10px #404040;
+    border-radius: 10px;
 }
 
 .link2:hover {
-    border-radius: 7px;
     /* padding: 10px;
     padding-left: 18px;
     padding-right: 18px; */
-    background-color: #efefef;
     /* background: -o-linear-gradient(.66deg, #7a48d0 .49%, #8d56ec 99.79%);
     background: linear-gradient(89.34deg, #7a48d0 .49%, #8d56ec 99.79%); */
     /* box-shadow: 0 5px 15px rgba(37, 20, 227, 0.75), inset 0 -1px 0 #8d56ec; */
-    box-shadow: 0 0 5px gray;
+    background: linear-gradient(145deg, #d8d8d8, #ffffff);
+    box-shadow: inset 5px 5px 10px #cccccc, inset -5px -5px 10px #ffffff;
     color: #242424 !important;
 }
 
@@ -772,4 +769,33 @@ footer *:hover {
 
 .imgTg {
     width: 100%;
+}
+
+.tgflex {
+    /* background: url(../assets/tg.png); */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    width: 100%;
+    position: relative;
+    top: -9rem;
+}
+
+.tgflex a {
+    background-color: rgba(255, 255, 255, 0.782);
+    box-shadow: 0 0 0 5px rgba(253, 253, 253, 0.379);
+    padding: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-size: 18px;
+    border-radius: 120px;
+    transition: .3s;
+}
+
+.tgflex a:hover {
+    background-color: rgba(255, 255, 255, 0.889);
+    box-shadow: 0 0 0 5px rgba(253, 253, 253, 0.579);
+}
+
+.tgflex div {
+    font-size: 25px;
 }
