@@ -26,4 +26,16 @@
     .runStr {
         margin-top: 2rem !important;
     }
+    .ml5 {
+        display: none;
+    }
+    .tgflex {
+        display: none !important;
+    }
+    .imgTg {
+        display: none !important;
+    }
+    .mob_none {
+        display: none;
+    }
 }

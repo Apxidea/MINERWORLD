@@ -737,7 +737,9 @@ main * {
 
 .num_prod {
     margin-left: 0.1rem;
-    font-size: 13px;
+    font-size: 16px;
+    position: relative;
+    top: 0.2rem;
 }
 
 .tbdesc {
@@ -796,6 +798,33 @@ footer *:hover {
     box-shadow: 0 0 0 5px rgba(253, 253, 253, 0.579);
 }
 
+.btn-blueL {
+    background-color: #0088cc;
+    box-shadow: 0 0 0 5px #0088cc3b;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 18px;
+    border-radius: 120px;
+    transition: .3s;
+    color: white;
+}
+
+.btn-blueL:hover {
+    background-color: #007bb8;
+    color: white;
+    box-shadow: 0 0 0 5px rgba(76, 130, 206, 0.387)
+}
+
 .tgflex div {
     font-size: 25px;
+}
+
+.card_serv {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card_serv img {
+    width: 100%;
 }
