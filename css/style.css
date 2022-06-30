@@ -828,3 +828,55 @@ footer *:hover {
 .card_serv img {
     width: 100%;
 }
+
+.contact__div {
+    /* background-color: #5399df; */
+    background: linear-gradient(0deg, rgba(88, 169, 243, 0.8), rgba(88, 169, 243, 0.8)), url(https://s3-alpha-sig.figma.com/img/8af6/2aad/a52079d0d97e80b3486f5225faa106f9?Expires=1657497600&Signature=fioNVJdsWpJKWv14c~zocI8UeInRb4eUxBV-Xx5GpamtymflZ3Bnit1BVE-T7bY71W3grlrHI39IoUmhm-9Bk~MD6NL-IGf3INmjdZrvZuSZ-UtvmH-wJRsKoIPwegfjhrM9zLhXV9Sr0Iot~HNJlI7DOS4nWS8FsC~QX07N6UNhwgYIGYe64xqUDqAJoOOYqnDMFNrC5jY0LjZOortpBdmP7J4q31nh4LmO~hZoBWf3vOrpNxQxLzHOojw5FxY9d94vlUZPNILulXl~RkXZ5j-YtmW8ioLYL8C7oAM~nmzViqWzv1MWOcy-SOjYKa0F8KSzsRqkPIjJ1di5A~aJjQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 7rem;
+}
+
+.form_c {
+    width: 50%;
+    background: white;
+    margin: auto;
+}
+
+.input-mini {
+    background-color: rgb(247, 247, 247);
+    width: 47%;
+    height: 35px;
+    outline: none;
+    border: 2px solid rgb(233, 233, 233);
+    padding-left: 0.3rem;
+}
+
+.input {
+    background-color: rgb(247, 247, 247);
+    width: 100%;
+    height: 35px;
+    outline: none;
+    border: 2px solid rgb(233, 233, 233);
+    padding-left: 0.3rem;
+}
+
+.btn-blLight {
+    width: 100%;
+    padding: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    background: #58a9f3;
+    color: white;
+    font-weight: 300 !important;
+    transition: 0.2s;
+}
+
+.btn-blLight:hover {
+    background: #438cd0;
+}
+
+.form-check {
+    user-select: none;
+}
