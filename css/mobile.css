@@ -38,4 +38,10 @@
     .mob_none {
         display: none;
     }
+    .carousel {
+        display: none
+    }
+    .form_c {
+        width: 100%;
+    }
 }

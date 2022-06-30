@@ -506,14 +506,14 @@ a {
 }
 
 .slide2 {
-    background-size: cover;
     height: 400px;
+    width: 100%;
 }
 
 .cr-widget-marquee-container {
     border: 2px solid #8d56ec !important;
     border-radius: 5px !important;
-    box-shadow: 0 5px 15px rgba(37, 20, 227, 0.237) !important;
+    box-shadow: 0 5px 10px #8d56ec45 !important;
 }
 
 .cr-marquee-label {
@@ -844,21 +844,21 @@ footer *:hover {
 }
 
 .input-mini {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(246, 246, 246);
     width: 47%;
     height: 35px;
     outline: none;
-    border: 2px solid rgb(233, 233, 233);
-    padding-left: 0.3rem;
+    /* border: 2px solid rgb(233, 233, 233); */
+    padding-left: 0.5rem;
 }
 
 .input {
-    background-color: rgb(247, 247, 247);
+    background-color: rgb(246, 246, 246);
     width: 100%;
     height: 35px;
     outline: none;
-    border: 2px solid rgb(233, 233, 233);
-    padding-left: 0.3rem;
+    /* border: 2px solid rgb(233, 233, 233); */
+    padding-left: 0.5rem;
 }
 
 .btn-blLight {
@@ -879,4 +879,16 @@ footer *:hover {
 
 .form-check {
     user-select: none;
+}
+
+.card:hover {
+    box-shadow: 0 0 15px solid gray !important;
+}
+
+.mini-blocks {
+    width: 100%;
+}
+
+.mini-blocks * {
+    color: white;
 }
