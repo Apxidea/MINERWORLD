@@ -886,6 +886,7 @@ footer *:hover {
 }
 
 .mini-blocks {
+    background-size: cover;
     width: 100%;
 }
 
