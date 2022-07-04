@@ -1,3 +1,4 @@
+// Моб меню
 let btnHeaderList = document.getElementById("header_list");
 let whiteDiv = document.getElementById("header_mibDiv");
 
