@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miner World | Главная</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="shortcut icon" href="assets/logo-orig.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <div class="dd">
+            <div class="container">
+                <div class="d-flex justify-content-between py-3">
+                    <div class="header_div1 d-flex align-items-center">
+                        <img src="assets/logo-orig.png " alt=" ">
+                        <a href="/" class="logo">
+                            <b>MINER</b> WORLD
+                        </a>
+                        <a href="/" class="btn-green ml5">Прайс-лист</a>
+                    </div>
+                    <div class="header_div2 d-flex align-items-center">
+                        <div class="info">
+                            <a href="tel:+79264873741">+7 (926) 487-37-41</a> &#160;Иркутск &#160;| &#160;Москва
+                        </div>
+                        <a href="/" class="btn-blue">Купить майнер</a>
+                    </div>
+                    <div class="d-flex align-items-center" id="header_list">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header_mibDiv" id="header_mibDiv">
+                <a class="a" href="catalog.html">Каталог</a>
+                <a class="a" href="service.html">Услуги</a>
+                <a class="a" href="">Доставка и Оплата</a>
+                <a class="a" href="repair.html">Ремонт майнеров</a>
+                <a class="a" href="">Медиа блог</a>
+                <a class="a" href="">О нас</a>
+                <a class="a" href="">Контакты</a>
+                <div class="info_mob">
+                    <a href="tel:+79264873741">+7 (926) 487-37-41</a> &#160;Иркутск &#160;| &#160;Москва
+                </div>
+                <a href="catalog.html" class="btn-blue">Купить майнер</a>
+                <a href="/" class="btn-green mt-3">Прайс-лист</a>
+            </div>
+            <div id="menu" class="d-flex justify-content-between container mb-2 mt-1 py-2">
+                <div class="dropdown2">
+                    <a href="catalog.html" id="link_catalog" class="btn-blue dropbtn">Каталог</a>
+                    <div class="dropdown-content">
+                        <a href="#">Асики</a>
+                        <a href="#">Видеокарты</a>
+                        <a href="#">Запчасти</a>
+                        <a href="#">Фермы</a>
+                        <a href="#">Ванны</a>
+                        <a href="#">Кошельки</a>
+                    </div>
+                </div>
+                <a href="service.html" class="link">Услуги</a>
+                <a href="/" class="link">Доставка и Оплата</a>
+                <a href="repair.html" class="link">Ремонт майнеров</a>
+                <a href="/" class="link">Медиа блог</a>
+                <a href="/" class="link">О нас</a>
+                <a href="/" class="link">Контакты</a>
+            </div>
+            <div style="z-index: 1" class="mb-1 runStr" id="cr-widget-marquee" data-coins="bitcoin,ethereum,tether,usdcoin,bnb,ripple,binance-usd,cardano,solana,dogecoin" data-theme="light" data-show-symbol="true" data-show-icon="true" data-show-period-change="true"
+                data-period-change="24H" data-api-url="https://api.cryptorank.io/v0">
+                <script src="https://cryptorank.io/widget/marquee.js"></script>
+            </div>
+        </div>
+        <div class="nav mb-2 mt-3 dd py-2">
+            <div class="container d-flex justify-content-between">
+                <a href="/" class="link2">Виды ремонта</a>
+                <a href="/" class="link2">Гарантии</a>
+                <a href="/" class="link2">Наши работы</a>
+                <a href="/" class="link2">Отзывы клиентов</a>
+                <a href="/" class="link2">Консультации</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Получить инструкцию по майнингу</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Адрес электронной почты</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Номер телефона</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="+7 (999) 999-99-99">
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Закрыть</button>
+                        <button type="button" class="btn btn-primary">Получить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container pt-5 ">
+            <div class="row ">
+                <div class="col-lg-4 ">
+                    <div class="header_div1 d-flex align-items-center ">
+                        <img src="assets/logo-orig.png " alt=" ">
+                        <a href="/ " class="logo ">
+                            <b>MINER</b> WORLD
+                        </a>
+                    </div>
+                    <p class="my-4 ">Оборудование и комплектующие для майнинга</p>
+                    <p class="my-4 ">ИП Турчанинов С.С.</p>
+                    <p class="my-4 ">ИНН: 380896162495</p>
+                    <p class="my-4 ">ОГРНИП: 320385000092972</p>
+                    <p class="my-4 ">ИП Радзиловский М. С.</p>
+                    <p class="my-4 ">ИНН: 381169680021</p>
+                    <p class="my-4 ">ОГРНИП: 318385000081820</p>
+                </div>
+                <div class="col-lg-2 mt-3 d-block ">
+                    <p class="fs-3 ">Меню</p>
+                    <a href="/ " class="my-3 d-block ">Новости</a>
+                    <a href="/ " class="my-3 d-block ">О компании</a>
+                    <a href="/ " class="my-3 d-block ">Отзывы</a>
+                    <a href="/ " class="my-3 d-block ">Вакансии</a>
+                    <a href="/ " class="my-3 d-block ">Сотрудничество</a>
+                    <a href="/ " class="my-3 d-block ">Оплата и доставка</a>
+                    <a href="/ " class="my-3 d-block ">Контакты компании</a>
+                </div>
+                <div class="col-lg-3 mt-3 d-block ">
+                    <p class="fs-3 ">Каталог</p>
+                    <a href="/ " class="my-3 d-block ">ASIC-майнеры</a>
+                    <a href="/ " class="my-3 d-block ">Комплектующие</a>
+                </div>
+                <div class="col-lg-3 mt-3 d-block text-end ">
+                    <p class="fs-3 ">Контакты</p>
+                    <a href="tel:89268999477 " class="my-3 fs-3 d-block mt-4 ">+7 (926) 899-94-77</a>
+                    <div style="line-height: 0.5rem; ">
+                        <p class="fs-6 text-white-50 mt-5 ">E-mail</p>
+                        <a href="mailto:miner-world@yandex.ru ">miner-world@yandex.ru</a>
+                    </div>
+                    <div>
+                        <p class="fs-6 text-white-50 mt-5 ">Адрес</p>
+                        <a href="mailto:miner-world@yandex.ru ">Каширское шоссе, д.4 к.2, Москва, Россия</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/phone.js"></script>
+    <script src="js/modalShow.js"></script>
+</body>
+
+</html>
